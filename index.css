@@ -4,6 +4,53 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
-    background-color: blanchedalmond;
+    background-color: rgb(157, 128, 85);
+    height: 150vh;
+    width: 80%;
+    margin: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container1 {
+    background-color: cadetblue;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container2 {
+    background-color: turquoise;
+    width: 90%;
+    height: 30%;
+}
+
+.container1-left {
+    background-color: rgb(157, 104, 157);
+    width: 65%;
+    height: 100%;
+}
+
+.container1-right {
+    background-color: rgb(108, 44, 108);
+    width: 35%;
+    height: 100%;
+}
+
+li {
+    margin-left: 25px;
 }
